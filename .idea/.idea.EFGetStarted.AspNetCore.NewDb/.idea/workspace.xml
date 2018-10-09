@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dca187c-7864-4184-8d74-fceb8ca2b988" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFGetStarted.AspNetCore.NewDb/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFGetStarted.AspNetCore.NewDb/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFGetStarted.AspNetCore.NewDb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFGetStarted.AspNetCore.NewDb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFGetStarted.AspNetCore.NewDb/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/DesignTimeDBFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Migrations/20181009184141_InitialCreate.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Migrations/20181009184141_InitialCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Migrations/BloggingContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Models/Model.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/TutorialDBFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Home/About.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Home/Contact.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/css/site.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/images/banner1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/images/banner2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/images/banner3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/js/site.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/bootstrap/dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1774675230">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="3" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="3" />
+          <entry key="JSON" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="48" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Controllers/BlogsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <marker date="1539111128559" expanded="true" signature="6:251" ph="..." />
+                <marker date="1539111128559" expanded="true" signature="304:4266" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="352:4264" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="466:518" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="590:671" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="762:1102" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="800:863" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="997:1060" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="1170:1217" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="1227:1435" ph="/* POST: Blogs/Create ... */" />
+                <marker date="1539111128559" expanded="true" signature="1569:1827" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="1615:1786" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="1912:2207" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="1950:2013" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2103:2166" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2217:2425" ph="/* POST: Blogs/Edit/5 ... */" />
+                <marker date="1539111128559" expanded="true" signature="2565:3315" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2610:2673" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2710:3274" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2744:2878" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2931:3204" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="2999:3086" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="3111:3186" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="3404:3744" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="3442:3505" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="3639:3702" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="3918:4137" ph="{...}" />
+                <marker date="1539111128559" expanded="true" signature="4178:4258" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="88" lean-forward="true" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
+              <folding>
+                <marker date="1539114951970" expanded="true" signature="6:444" ph="..." />
+                <marker date="1539114951970" expanded="true" signature="485:2427" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="512:2425" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="571:634" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="857:1649" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="930:1208" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="1464:1639" ph="/* BloggingContext requires ... */" />
+                <marker date="1539114951970" expanded="true" signature="1837:2419" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="1884:1961" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="1978:2093" ph="{...}" />
+                <marker date="1539114951970" expanded="true" signature="2236:2407" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LocalDb</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Controllers/BlogsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Blogs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="EFGetStarted.AspNetCore.NewDb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dca187c-7864-4184-8d74-fceb8ca2b988" name="Default Changelist" comment="" />
+      <created>1539110884561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539110884561</updated>
+      <workItem from="1539110886312" duration="2822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2822000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539104513054" expanded="false" signature="6:255" ph="..." />
+            <marker date="1539104513054" expanded="true" signature="296:623" ph="{...}" />
+            <marker date="1539104513054" expanded="true" signature="323:621" ph="{...}" />
+            <marker date="1539104513054" expanded="true" signature="376:450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Controllers/BlogsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1539111128559" expanded="true" signature="6:251" ph="..." />
+            <marker date="1539111128559" expanded="true" signature="304:4266" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="352:4264" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="466:518" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="590:671" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="762:1102" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="800:863" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="997:1060" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="1170:1217" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="1227:1435" ph="/* POST: Blogs/Create ... */" />
+            <marker date="1539111128559" expanded="true" signature="1569:1827" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="1615:1786" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="1912:2207" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="1950:2013" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2103:2166" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2217:2425" ph="/* POST: Blogs/Edit/5 ... */" />
+            <marker date="1539111128559" expanded="true" signature="2565:3315" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2610:2673" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2710:3274" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2744:2878" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2931:3204" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="2999:3086" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="3111:3186" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="3404:3744" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="3442:3505" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="3639:3702" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="3918:4137" ph="{...}" />
+            <marker date="1539111128559" expanded="true" signature="4178:4258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFGetStarted.AspNetCore.NewDb/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="88" lean-forward="true" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
+          <folding>
+            <marker date="1539114951970" expanded="true" signature="6:444" ph="..." />
+            <marker date="1539114951970" expanded="true" signature="485:2427" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="512:2425" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="571:634" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="857:1649" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="930:1208" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="1464:1639" ph="/* BloggingContext requires ... */" />
+            <marker date="1539114951970" expanded="true" signature="1837:2419" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="1884:1961" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="1978:2093" ph="{...}" />
+            <marker date="1539114951970" expanded="true" signature="2236:2407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
