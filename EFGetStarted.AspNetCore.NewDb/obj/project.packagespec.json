@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/Elizabeth/Documents/gitRepos/ef-core-tutorial/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb.csproj",
+    "projectUniqueName": "/Users/Elizabeth/Documents/gitRepos/ef-tut/ef-tut/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb.csproj",
     "projectName": "EFGetStarted.AspNetCore.NewDb",
-    "projectPath": "/Users/Elizabeth/Documents/gitRepos/ef-core-tutorial/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb.csproj",
-    "outputPath": "/Users/Elizabeth/Documents/gitRepos/ef-core-tutorial/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb/obj/",
+    "projectPath": "/Users/Elizabeth/Documents/gitRepos/ef-tut/ef-tut/EFGetStarted.AspNetCore.NewDb/EFGetStarted.AspNetCore.NewDb.csproj",
+    "outputPath": "/Users/Elizabeth/Documents/gitRepos/ef-tut/ef-tut/EFGetStarted.AspNetCore.NewDb/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
